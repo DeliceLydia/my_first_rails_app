@@ -1,17 +1,17 @@
 development:
   adapter: postgresql
-  database: blog_app_development
+  database: my_first_rails_app_development
   pool: 5
   timeout: 5000
 
 test:
   adapter: postgresql
-  database: blog_app_test
+  database: my_first_rails_app_test
   pool: 5
   timeout: 5000
 
 production:
   adapter: postgresql
-  database: blog_app_production
+  database: my_first_rails_app_production
   pool: 5
   timeout: 5000
